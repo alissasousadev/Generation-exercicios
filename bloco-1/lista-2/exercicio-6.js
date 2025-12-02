@@ -4,9 +4,9 @@ const leia = require("readline-sync");
 //Salário (número real);
 //mostre na tela o Nome do Colaborador, o Cargo e o novo Salário reajustado.
 
-let nome = leia.questionInt('Digite o nome do colaborador');
-let cargoCodigo = leia.questionInt('Digite o codigo do cargo (1 a 6');
-let salario = leia.questionInt('Digite o salario:');
+let nome = leia.question('Digite o nome do colaborador: '); 
+let cargoCodigo = leia.questionInt('Digite o codigo do cargo (1 a 6): ');
+let salario = leia.questionInt('Digite o salario: ');
 
 let cargo
 let reajuste
@@ -38,7 +38,7 @@ switch(cargoCodigo) {
         reajuste = 0.08;
         break;
     default:
-        console.log("\nCodigo invalido! Digite um codigo entre 1 e 6");
+        console.log("\nCodigo invalido! Digite um codigo entre 1 e 6.");
         process.exit();
 }
 
