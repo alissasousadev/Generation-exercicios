@@ -2,6 +2,9 @@
 /dist
 /node_modules
 nodemon.json
+package.json
+tsconfig.json
+package.lock.json
 
 # Logs
 logs
