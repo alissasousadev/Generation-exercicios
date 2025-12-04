@@ -14,13 +14,13 @@ do {
     console.log('0 - Sair');
     console.log('**********************************');
     
-    opcao = leia.questionInt('Escolha a opção do menu acima:')
+    opcao = leia.questionInt('Escolha a opcao do menu acima:')
 
     switch(opcao) {
         
         case 1:
         console.log('Adicionando na fila');
-        break
+        break 
 
         case 2:
             console.log('Mostrando a lista:');
@@ -37,4 +37,4 @@ do {
         default:
             console.log('Escolha uma das opções acima')
     }
-} while(opacao !== 0)
+} while(opcao !== 0)

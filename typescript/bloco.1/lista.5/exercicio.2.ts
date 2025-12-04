@@ -10,7 +10,7 @@ Caso a pilha esteja vazia, ao tentar retirar um livro da pilha, o programa dever
  */
 
 const pilha = new Stack();
-let opcao: number;
+let opcao: number; 
 
 do {
     console.log("************************************");
