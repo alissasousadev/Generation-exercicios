@@ -29,7 +29,7 @@ Esses exercícios foram essenciais para fortalecer minha base lógica e compreen
 
 <br clear="both">
 
-<h2><img src="https://i.imgur.com/izFuHID.png" title="source: imgur.com" width="40px"<h2 align="left">TypeScript</h2>
+<h1><img src="https://i.imgur.com/izFuHID.png" title="source: imgur.com" width="40px"<h2 align="left">TypeScript</h2>
 
 ###
 
