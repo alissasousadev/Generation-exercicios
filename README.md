@@ -34,7 +34,7 @@ Esses exercícios foram essenciais para fortalecer minha base lógica e compreen
 ###
 
 <p align="left">
-📂 <a href="https://github.com/alissasousedev/Generation-exercicios/tree/main/typescript" target="_blank">Acesse os exercícios</a><br><br>
+📂 <a href="https://github.com/alissasousadev/Generation-exercicios/tree/main/typescript" target="_blank">Acesse os exercícios</a><br><br>
 ✔️ <strong>Conteúdos praticados:</strong><br><br>
 • Collections (Map, Set, Array tipado, List)<br>
 • Estruturas de Dados (pilhas, filas, listas, manipulação com TS)<br><br>
