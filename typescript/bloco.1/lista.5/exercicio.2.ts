@@ -9,24 +9,66 @@ O programa deverá ter um Menu que aceitará as opções 0, 1, 2 e 3
 Caso a pilha esteja vazia, ao tentar retirar um livro da pilha, o programa deverá informar que a pilha está vazia.
  */
 
-const pilha = new Stack();
+import * as readline from "readline-sync";
+
+const input = readline;
+
+class Stack<T> {
+  private items: T[] = [];
+
+  push(item: T): void {
+    this.items.push(item);
+  }
+  pop(): T | undefined {
+    if (this.isEmpty()) {
+      return undefined;
+    }
+    return this.items.pop();
+  }
+  peek(): T | undefined {
+    return this.items.length === 0 ? undefined : this.items[this.items.length - 1];
+  }
+  isEmpty(): boolean {
+    return this.items.length === 0;
+  }
+  size(): number {
+    return this.items.length;
+  }
+  print(): void {
+    if (this.isEmpty()) {
+      console.log("A pilha está vazia.");
+      return;
+    }
+    console.log("Conteúdo da pilha (topo -> base):");
+    for (let i = this.items.length - 1; i >= 0; i--) {
+      console.log(this.items[i]);
+    }
+  }
+  clear(): void {
+    this.items.length = 0;
+  }
+}
+
+//PROGRAMA PRINCIPAL:
+const pilha = new Stack<string>();
+
 let opcao: number; 
 
 do {
     console.log("************************************");
-    console.log(" 1 - Adicionar um novo livro na pilha");
-    console.log(" 2 - Listar todos os livros da pilha");
-    console.log(" 3 - Retirar um livro da pilha");
+    console.log(" 1 - Adicionar um novo livro");
+    console.log(" 2 - Listar todos os livros");
+    console.log(" 3 - Retirar um livro");
     console.log(" 0 - Sair");
     console.log("************************************");
 
-    opcao = leia.questionInt("Escolha a opção do menu: ");
+    opcao = input.questionInt("Escolha a opcao do menu: ");
 
     switch (opcao) {
         case 1:
-            const livro = leia.question("Digite o nome do livro: ");
+            const livro = input.question("Digite o nome do livro: ");
             pilha.push(livro);
-            console.log(`${livro} foi adicionado ao topo da pilha.`);
+            console.log(`${livro} O livro foi adicionado.`);
             break
 
         case 2:
@@ -37,7 +79,7 @@ do {
             if (pilha.isEmpty()) {
                 console.log("A pilha está vazia. Nenhum livro para retirar.");
             } else {
-                const retirado = pilha.pop();
+                let retirado = pilha.pop();
                 console.log(`Livro retirado: ${retirado}`);
             }
             break
