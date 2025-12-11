@@ -1,5 +1,5 @@
 // Escreva um algoritmo que leia 3 palavras (string), que definem as características de um tipo de animal
-// que deve ser lido da esquerda para a direita. 
+// vertebrado/invertebrado => ave|manifero - inseto|anelideo => carnivoro, onivoro/onivoro, herbivoro...
 
 const leia = require("readline-sync");
 

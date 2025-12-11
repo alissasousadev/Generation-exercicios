@@ -1,9 +1,9 @@
-const leia = require('readline-sync');
-
 /*
 Leia quatro valores (n1, n2, n3, n4). 
 Calcule e mostre a diferença do produto entre o n1 e n2 pelo produto entre o n3 e o n4.
 */
+
+const leia = require('readline-sync');
 
 //Declarar variaveis
 let n1;

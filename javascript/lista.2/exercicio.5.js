@@ -1,8 +1,8 @@
-const leia = require("readline-sync")
-
-//escreva um algoritmo que leia o código de um item (número inteiro entre 1 e 6) e 
+//escreva um algoritmo que leia o código de um item (número inteiro entre 1 e 6) 
 // a quantidade comprada deste item (número inteiro). 
-// A seguir, mostre na tela o valor total da conta e o nome do produto que foi comprado
+// mostre na tela o valor total da conta e o nome do produto que foi comprado
+
+const leia = require("readline-sync")
 
 let codigo = leia.questionInt("Digite o codigo do produto (1 a 6):");
 let quantidade = leia.questionInt("Digite a quantidade desejada:");

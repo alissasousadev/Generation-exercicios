@@ -4,7 +4,6 @@
 // A seguir, mostre na tela o resultado da operação entre os 2 números. 
 // Caso o número da operação esteja fora do intervalo entre 1 e 4, mostre a mensagem na tela Operação Inválida! 
 
-
 const leia = require("readline-sync")
 
 let numero1 = leia.questionInt("Digite o primeiro numero: ")

@@ -1,10 +1,8 @@
-const leia = require('readline-sync');
-
 // Desenvolva o algoritmo em JavaScript para entrada e saída de dados:
 // Início -> Digite salário -> Leia salário -> Digite abono -> Leia abono ->
 // Calcule novo salário -> Exiba novo salário -> Fim
 
-
+const leia = require('readline-sync');
 
 let salario;
 let abono;

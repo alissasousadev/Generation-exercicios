@@ -4,7 +4,7 @@
 // Considere que um saque só pode ser realizado caso haja saldo suficiente. 
 // Ao final de cada operação, exiba o novo Saldo na tela. 
 // A variável saldo (número real), será inicializada com o valor de R$ 1000.00. 
-// Caso o número da operação esteja fora do intervalo entre 1 e 4, mostre a mensagem na tela Operação Inválida! 
+// Caso o número da operação esteja fora do intervalo entre 1 e 4, mostre a mensagem na tela "Operação Inválida!"
 
 const leia = require("readline-sync")
 

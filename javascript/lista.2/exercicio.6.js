@@ -1,8 +1,8 @@
-const leia = require("readline-sync");
-
 //um algoritmo que leia o Nome do Colaborador (string), o Código do Cargo do Colaborador (número inteiro entre 1 e 6)
 //Salário (número real);
 //mostre na tela o Nome do Colaborador, o Cargo e o novo Salário reajustado.
+
+const leia = require("readline-sync");
 
 let nome = leia.question('Digite o nome do colaborador: '); 
 let cargoCodigo = leia.questionInt('Digite o codigo do cargo (1 a 6): ');

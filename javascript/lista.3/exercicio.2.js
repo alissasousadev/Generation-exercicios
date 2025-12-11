@@ -1,4 +1,4 @@
-//Ler 10 números do teclado
+// Ler 10 números do teclado
 // Contar quantos são pares
 // Contar quantos são ímpares
 // Mostrar o total de pares e ímpares no final

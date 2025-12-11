@@ -1,9 +1,9 @@
-const leia = require("readline-sync")
+// Escreva um algoritmo, que leia 2 números inteiros 
+// o primeiro número deve ser menor do que o segundo número. 
+// Caso contrário, deve ser exibida uma mensagem na tela informando que o intervalo é inválido e sair do programa. 
+// No intervalo informado, mostre na tela todos os números que são múltiplos de 3 e 5.
 
-// 1 - Escreva um algoritmo, que leia 2 números inteiros 
-// 2 - o primeiro número deve ser menor do que o segundo número. 
-// 3 - Caso contrário, deve ser exibida uma mensagem na tela informando que o intervalo é inválido e sair do programa. 
-// 4 - No intervalo informado, mostre na tela todos os números que são múltiplos de 3 e 5.
+const leia = require("readline-sync")
 
 let numero1 = leia.questionInt("Digite o primeiro numero do intervalo: ");
 let numero2 = leia.questionInt("Digite o segundo numero do intervalo: ");

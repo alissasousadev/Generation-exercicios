@@ -1,6 +1,7 @@
-const leia = require('readline-sync');
+//Elabore um algoritmo em JavaScript que leia 4 notas de um participante, 
+// exiba na tela a média final do participante.
 
-//Elabore um algoritmo em JavaScript que leia 4 notas de um participante, exiba na tela a média final do participante.
+const leia = require('readline-sync');
 
 // Declara variáveis
 let nota1;

@@ -1,5 +1,3 @@
-const leia = require('readline-sync');
-
 /*
 Elabore um algoritmo em JavaScript que: 
  1.Leia o Salário Bruto
@@ -9,6 +7,8 @@ Elabore um algoritmo em JavaScript que:
  5.Calcule o Salário Líquido
  6.Exiba o resultado ao usuário
 */
+
+const leia = require('readline-sync');
 
 // Declara variáveis
 let salarioBruto;
