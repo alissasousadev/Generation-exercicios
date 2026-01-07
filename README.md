@@ -61,20 +61,5 @@ Esses exercícios ajudaram a aprofundar meu entendimento sobre tipagem estática
 
 <br clear="both">
 
-<h3 align="center">Observações</h3>
 
-###
 
-<p align="center">Este repositório está sempre sendo atualizado conforme avanço no bootcamp.<br>Sugestões são sempre bem-vindas! 😊<br>Entre em contado:</p>
-
-###
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="52" height="40" alt="microsoft-outlook logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
-</div>
-
-###
