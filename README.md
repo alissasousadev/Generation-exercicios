@@ -53,17 +53,16 @@ Esses exercícios ajudaram a aprofundar meu entendimento sobre tipagem estática
 
 <p align="left">
 📂 <a href="https://github.com/alissasousadev/Generation-exercicios/tree/main/banco%20de%20dados_MySQL" target="_blank">Acesse os exercícios</a><br><br>
-
 ✔️ <strong>Conteúdos praticados:</strong><br><br>
-• Modelagem de Banco de Dados Relacional<br>
-• Criação de Bancos de Dados e Tabelas (CREATE DATABASE / CREATE TABLE)<br>
-• Definição de Chaves Primárias (PRIMARY KEY) e AUTO_INCREMENT<br>
-• Manipulação de Dados (INSERT, SELECT, UPDATE)<br>
-• Filtros com WHERE e operadores relacionais<br><br>
+• Criação de bancos de dados e tabelas (CREATE DATABASE / CREATE TABLE)<br>
+• Definição de Chave Primária (PRIMARY KEY) e Chave Estrangeira (FOREIGN KEY)<br>
+• Modelagem de dados relacional (relacionamento 1:N)<br>
+• Inserção de dados com integridade referencial (INSERT)<br>
+• Consultas SQL utilizando operadores relacionais (&gt;, BETWEEN, LIKE)<br>
+• Junção de tabelas com INNER JOIN<br><br>
 
-Os exercícios abordam cenários práticos como <strong>sistema de RH</strong>, <strong>e-commerce</strong> e <strong>registro escolar</strong>, com foco na organização dos scripts SQL, boas práticas e compreensão da lógica relacional.<br><br>
-
-📌 <em>Obs.: novas listas e exercícios de banco de dados serão adicionados ao longo do bootcamp.</em>
+Os exercícios foram desenvolvidos utilizando o MySQL, com foco em boas práticas de modelagem,
+organização de scripts SQL e entendimento das relações entre entidades.
 </p>
 
 
